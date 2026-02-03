@@ -13,7 +13,7 @@ class PaymentGatewayFactory
             ->where('active', true)
             ->firstOrFail();
 
-        $handlerClass = $gateway->handler_class;
+        $handlerClass = $gateway?->handler_class;
 
         if (!class_exists($handlerClass)) {
             throw new Exception("Payment gateway handler class does't exist.");

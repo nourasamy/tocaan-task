@@ -23,5 +23,3 @@ If you need to add more gateway only you need to do is create new class implemen
 
 
 
-
-
