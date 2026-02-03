@@ -10,6 +10,11 @@
 7. php artisan jwt:secret
 8. php artisan serve
 
+## Testing 
+
+1. For Unit test run php artisan test tests/Unit
+2. For Feature test run php artisan test tests/Feature
+
 ## Explanation of the payment gateway extensibility
 
 used design patterns are Strategy Pattern and Factory Pattern :
