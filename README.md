@@ -18,7 +18,7 @@ used design patterns are Strategy Pattern and Factory Pattern :
 2. PaymentGatewayFactory is a factory pattern decides which strategy to instantiate at runtime, it designed with dynamic logic which mean there's no need to modify it when adding a new gateway 
 
 ## example :
- you need to add more gateway only you need to do is create new class implements PaymentGatewayInterface and add the gateway logic to pay and add the gateway record in table payment_gateways with correct path of the gateway class
+If you need to add more gateway only you need to do is create new class implements PaymentGatewayInterface and add the gateway payment logic to pay function and add the gateway record into payment_gateways table with the correct class path for the gateway.
 
 
 
